@@ -4,7 +4,7 @@ import '../../models/models.dart';
 
 class ApiService {
   final String apiKey = '9515420ddf6df436122f316db2946e0d';
-  final String baseUrl = 'https://api.themoviedb.org/3';
+  final String baseUrl = 'https://api.themoviedb.org/3/movie/popular?api_key=9515420ddf6df436122f316db2946e0d&language=es-ES&page=1';
 
   Future<List<Movie>> fetchMovies() async {
     final url = Uri.parse('$baseUrl/movie/popular?api_key=$apiKey&language=es-ES&page=1');
