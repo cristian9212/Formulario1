@@ -26,7 +26,7 @@ class Movie {
       id: json['id'].toString(),
       MovieName: json['title'] ?? 'Sin título',
       MovieYear: DateTime.tryParse(json['release_date'] ?? '')?.year ?? 0,
-      duration: 0, // TMDB no lo da aquí, lo dejamos en 0 o puedes consultar detalle por ID
+      duration: 0, 
     );
   }
 

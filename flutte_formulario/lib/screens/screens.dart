@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../service/api_service.dart';
-import '../models/models.dart'; // Asegúrate que aquí esté tu modelo Movie
+import '../models/models.dart'; 
 
 class MovieListScreen extends StatefulWidget {
   const MovieListScreen({Key? key}) : super(key: key);
